@@ -1,0 +1,25 @@
+
+Online Document https://itechnotion.gitbook.io/wp-news
+
+Demo App : https://play.google.com/store/apps/details?id=com.itechnotion.wpnews
+
+Support : support@itechnotion.com
+
+Customization request at info@itechnotion.com
+
+
+
+
+
+
+Change Log
+
+Version 1.4 [29 June 2018]
+- Admob Inertial Ads
+- On/Off ads using flag
+- Minor issue solved
+- Contact us API update
+- Documentation update
+
+Version 1.0
+Release

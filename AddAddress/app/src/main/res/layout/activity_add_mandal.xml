@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMandal">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sdistrict"></android.support.v7.widget.AppCompatSpinner>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/emandal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mandal"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/baddmandal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Mandal"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

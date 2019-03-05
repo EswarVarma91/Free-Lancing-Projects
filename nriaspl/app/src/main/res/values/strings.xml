@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NRIAS</string>
+    <string name="siteurl">mahaprasthanamap.in</string>
+    <string name="apiurl">mahaprasthanamap.in</string>
+    <string name="google_maps_key">AIzaSyCZzSEhx4CPrlZhu9a3PSkLO6opGmXMcNc</string>
+    <string name="default_notification_channel_id">1</string>
+    <string name="locationId">mahaprasthanamap.in/locationapi/a?id=</string>
+    <string name="locationdropdown">http://mahaprasthanamap.in/locationapi</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:padding="0dp"
+    tools:context="nriaspl.mahaprasthanamap.in.Login">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="0dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:src="@drawable/smlogo" />
+
+        <TextView
+            android:id="@+id/contact_form_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign in"
+            android:textColor="@color/normal"
+            android:drawableLeft="@drawable/icons8_fingerprint_scan_18px"
+            android:textSize="18sp"
+            android:drawablePadding="10dp"
+            android:visibility="visible" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/usermobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/black"
+                android:drawableLeft="@drawable/icons8_android_18px"
+                android:drawablePadding="10dp"
+                android:hint="Enter Mobile Number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/userpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icons8_password_18px"
+                android:drawablePadding="10dp"
+                android:hint="Enter password"
+                android:imeActionId="6"
+                android:imeActionLabel="Hello"
+                android:imeOptions="actionUnspecified"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/BtnLogin"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnbg3"
+            android:elevation="4dp"
+            android:onClick="login"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Login"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
