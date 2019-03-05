@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dly"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/agentsid"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="ID : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Name : " />
+
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Age : "/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsaadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Aadhar : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsmobile"
+            android:layout_width="match_parent"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginTop="3dp"
+            android:text="State : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsdistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:textSize="12dp"
+            android:text="District : " />
+
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsmandal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Mandal : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsvillage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Village : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Status : " />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/agentsdateofjoining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Of Joining : "
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

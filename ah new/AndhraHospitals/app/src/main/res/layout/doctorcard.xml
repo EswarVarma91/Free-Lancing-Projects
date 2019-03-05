@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageviewofdoctor"
+            android:layout_width="90dp"
+            android:src="@drawable/doctor"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/doctorname"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Name" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

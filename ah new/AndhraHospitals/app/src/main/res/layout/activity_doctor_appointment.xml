@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorAppointment"
+    tools:layout_editor_absoluteY="25dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_dapp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar_dapp">
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:textColor="@color/colorPrimary" />
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/nameoftheperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name of the Person"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="left"
+                            android:text="Problem"
+                            android:textColor="@color/colorPrimary" />
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/problemoftheperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top|left"
+                            android:hint="Problem"
+                            android:inputType="textMultiLine"
+                            android:lines="2"
+                            android:scrollbars="vertical"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Age"
+                            android:textColor="@color/colorPrimary" />
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/ageoftheperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Age of the Person"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Select Gender"
+                            android:textColor="@color/colorPrimary" />
+
+                        <Spinner
+                            android:id="@+id/genderd"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"></Spinner>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Mobile Number"
+                            android:textColor="@color/colorPrimary" />
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/numberoftheperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Number of the Person"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Available Time Slot"
+                            android:textColor="@color/colorPrimary" />
+
+                        <Spinner
+                            android:id="@+id/timeslotoftheperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp" />
+
+
+                </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/book_an_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#FFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

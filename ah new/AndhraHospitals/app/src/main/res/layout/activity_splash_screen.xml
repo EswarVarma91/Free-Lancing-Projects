@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/screen">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:id="@+id/rlidgt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AVLoadingIndicatorView"
+            android:visibility="visible"
+            app:indicatorName="BallClipRotateMultipleIndicator"
+            app:indicatorColor="@color/black" />
+        <TextView
+            android:id="@+id/gettingdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/avi"
+            android:layout_alignTop="@+id/avi"
+            android:layout_toRightOf="@+id/avi"
+            android:gravity="center_vertical"
+            android:text="Loading"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+</RelativeLayout>

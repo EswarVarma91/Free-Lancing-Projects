@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fwt.andhrahospitals">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:label="Andhra Hospitals"></activity>
+        <activity
+            android:name=".Deparment"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SelectDate"
+            android:parentActivityName=".Deparment" />
+        <activity
+            android:name=".BranchesActivity"
+            android:parentActivityName=".SelectDate" />
+        <activity
+            android:name=".DoctorsActivity"
+            android:parentActivityName=".BranchesActivity" />
+        <activity
+            android:name=".DoctorAppointment"
+            android:parentActivityName=".DoctorsActivity" />
+        <activity
+            android:name=".LabAppointment"
+            android:parentActivityName=".DoctorsActivity" />
+    </application>
+
+</manifest>

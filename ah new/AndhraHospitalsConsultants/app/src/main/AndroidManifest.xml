@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fwt.andhrahospitalsconsultants">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/consultanticon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/consultanticon"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="Andhra Hospital Consultant">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="Andhra Hospital Consultant"></activity>
+        <activity android:name=".TotalAppActivity"
+            android:label="Total Appointments"/>
+        <activity android:name=".DescActivity" />
+        <activity android:name=".DocProfile"
+            android:label="My Profile"></activity>
+    </application>
+</manifest>
